@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- # TITULO DE LA PAGINA -->
+<title>Registro | Contabili</title>
+
+<!-- # CONEXION CON EL ARCHIVO CSS -->
+<link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+
+<!-- # ENCABEZADO PRINCIPAL -->
+<header class="navbar">
+
+<!-- # LOGOTIPO DE CONTABILI -->
+<div class="logo">
+
+<span class="logo-icon">C</span>
+
+<span>CONTABILI</span>
+
+</div>
+
+<!-- # MENU DE NAVEGACION -->
+<nav>
+
+<a href="index.html">Inicio</a>
+
+<a href="login.html">Iniciar sesion</a>
+
+<a href="registro.html" class="btn-nav">Registrarse</a>
+
+</nav>
+
+</header>
+
+<!-- # CONTENIDO PRINCIPAL -->
+<main>
+
+<!-- # SECCION DE REGISTRO -->
+<section>
+
+<div class="seccion-titulo">
+
+<span>REGISTRO DE USUARIO</span>
+
+<h2>Crear una cuenta</h2>
+
+<p>
+Registra tus datos para acceder al sistema de gestion contable Contabili.
+</p>
+
+</div>
+
+<!-- # FORMULARIO DE REGISTRO -->
+<form action="login.html" method="get">
+
+<!-- # NOMBRE COMPLETO -->
+<label for="nombre">
+Nombre completo
+</label>
+
+<input
+type="text"
+id="nombre"
+name="nombre"
+placeholder="Ingrese su nombre completo"
+required
+>
+
+<!-- # DOCUMENTO -->
+<label for="documento">
+Documento
+</label>
+
+<input
+type="text"
+id="documento"
+name="documento"
+placeholder="Ingrese su documento"
+required
+>
+
+<!-- # CORREO ELECTRONICO -->
+<label for="correo">
+Correo electronico
+</label>
+
+<input
+type="email"
+id="correo"
+name="correo"
+placeholder="correo@ejemplo.com"
+required
+>
+
+<!-- # NOMBRE DE USUARIO -->
+<label for="usuario">
+Nombre de usuario
+</label>
+
+<input
+type="text"
+id="usuario"
+name="usuario"
+placeholder="Cree un nombre de usuario"
+required
+>
+
+<!-- # CONTRASEÑA -->
+<label for="password">
+Contraseña
+</label>
+
+<input
+type="password"
+id="password"
+name="password"
+placeholder="Ingrese una contraseña"
+required
+>
+
+<!-- # CONFIRMACION DE CONTRASEÑA -->
+<label for="confirmPassword">
+Confirmar contraseña
+</label>
+
+<input
+type="password"
+id="confirmPassword"
+name="confirmPassword"
+placeholder="Repita la contraseña"
+required
+>
+
+<!-- # SELECCION DEL ROL -->
+<label for="rol">
+Tipo de usuario
+</label>
+
+<select id="rol" name="rol" required>
+
+<option value="">
+Seleccione un rol
+</option>
+
+<option value="administrador">
+Administrador
+</option>
+
+<option value="contador">
+Contador
+</option>
+
+<option value="usuario">
+Usuario
+</option>
+
+<option value="cliente">
+Cliente
+</option>
+
+<option value="proveedor">
+Proveedor
+</option>
+
+</select>
+
+<!-- # BOTON DE REGISTRO -->
+<button type="submit">
+Crear cuenta
+</button>
+
+</form>
+
+<!-- # ENLACE PARA VOLVER AL LOGIN -->
+<p>
+¿Ya tienes una cuenta?
+</p>
+
+<a href="login.html">
+Iniciar sesion
+</a>
+
+</section>
+
+</main>
+
+<!-- # PIE DE PAGINA -->
+<footer>
+
+<div class="footer-contenido">
+
+<p>
+CONTABILI - Sistema de Gestion Contable
+</p>
+
+<p>
+Proyecto academico
+</p>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+© 2026 Contabili - Proyecto academico de software
+</p>
+
+</div>
+
+</footer>
+
+</body>
+</html>
